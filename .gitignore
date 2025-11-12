@@ -1,0 +1,61 @@
+output/
+test/
+schedule.md
+LLM.ipynb
+.env
+# Project-related   #
+*/*results*/
+*results*/
+tmp*/
+cache/*
+*/cache*/
+tmp*.py
+*tmp*
+*pickle
+credentials
+*.jpg
+*.mp4
+*.wav
+*.m4a
+
+# compiled files #
+*.pyc
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+.ipynb_checkpoints/
+*.swp
+*.vscode/
+*.idea/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test files #
+#############
+t.py
+*/t.py
+mark.py
